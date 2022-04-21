@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+<div id = "title-book">
+<div id="table">
+<table id="book">
+    <caption><h1>Quản lý sách</h1></caption>
+    <tr>
+        <th>Mã số sách</th>
+        <th>Tên Sách</th>
+        <th>Năm Xuất Bản</th>
+        <th>Số Lượng</th>
+        <th>Tình Trạng</th>
+    </tr>
+    <tbody id="tdbody">
+
+    </tbody>
+
+</table>
+<button id="add-book" onclick="addBook()">Thêm sách</button>
+<button id="borrow-book" onclick="borrowBook()">Mượn sách</button>
+</div>
+
+<script src="js/Book.js"></script>
+<script src="BookManager.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
